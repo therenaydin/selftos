@@ -42,7 +42,7 @@ from tkinter import filedialog
 
 activeTheme = "Light"
 
-localVersion = "4.1.0" # Programın sürümü. Burayı değiştirebilirsiniz ancak ssh sunucusundaki ile birebir aynı olmaz ise sürüm hatası verecek ve sohbet sunucularına giremeyeceksiniz.
+localVersion = "4.0.0" # Programın sürümü. Burayı değiştirebilirsiniz ancak ssh sunucusundaki ile birebir aynı olmaz ise sürüm hatası verecek ve sohbet sunucularına giremeyeceksiniz.
 serverVersion = sshmainpath+"/Server_Data/version.txt"
 localVersionP = "version.txt"
 
