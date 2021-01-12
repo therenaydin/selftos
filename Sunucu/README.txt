@@ -1,0 +1,2 @@
+Buradaki fotoğraflar setup için önemlidir değiştirmeniz gerekmez.
+downloadtr klasörünün içindeki exe dosyası ise kurulum sihirbazının indireceği exedir. Güncelleme yaptığınız zaman exe dosyasını değiştirin.
