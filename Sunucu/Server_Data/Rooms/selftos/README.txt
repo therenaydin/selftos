@@ -13,6 +13,6 @@ Sunucuyu düzgün kurmak için burayı okumalısınız!
 
 5-roomToken.txt klasörüne odanın şifresini yazmalısınız. Şifre yoksa boş bırakın.
 
-6-server.py dosyasını düzenleyin ve sunucunun IP adresini 175. satıra ekleyin.
+6-server.py dosyasını düzenleyin ve sunucunun IP adresini 176. satıra ekleyin.
 
 7-Daha sonra screen komutu ile çalıştırın.
