@@ -127,20 +127,16 @@ def download():
         sftp.get(serverlinkp, locallinkp)
         download_progress['value'] = 10
         sftp.close()
-        try: # Masaüstüne kısayol oluşturuyor.
-            path = os.path.join(desktop, "Selftos.lnk")
-            target = appdata+"/Selftos/Selftos.exe"
-            wDir = appdata+"/Selftos/"
-            shell = Dispatch('WScript.Shell')
-            shortcut = shell.CreateShortCut(path)
-            shortcut.Targetpath = target
-            shortcut.WorkingDirectory = wDir
-            shortcut.save()
-        except Exception as logError2: # hata durumunda konsola hatayı yazdırıyor.
-            print (logError2)
+        path = os.path.join(desktop, "Selftos.lnk")
+        target = appdata+"/Selftos/Selftos.exe"
+        wDir = appdata+"/Selftos/"
+        shell = Dispatch('WScript.Shell')
+        shortcut = shell.CreateShortCut(path)
+        shortcut.Targetpath = target
+        shortcut.WorkingDirectory = wDir
+        shortcut.save()
         download_progress['value'] = 10
-    except Exception as logError1: # indirme başarısız olursa konsola yazı yazıyor.
-        print(logError1)
+    except: # indirme başarısız olursa konsola yazı yazıyor.
         print(Fore.RED + "Bir şeyler ters gitti. Daha sonra tekrar deneyin.")
         top1 = Toplevel(setup, bg = "#C3FFF2")
         top1.iconbitmap(localiconp)
