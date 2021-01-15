@@ -107,7 +107,7 @@ def handle_client(client):
 			elif (checkMessage.find("kagsjhHYA") != -1): # Dosya gönderildiği zaman sunucudaki herkese bildirilir. Oynaşmayın.
 				sender = checkMessage.split("+")[1]
 				filename = checkMessage.split("+")[2]
-				newFile = "jkkasgjasg76666AJHAHAHxxxxCf"+"+"+"[Room] "+sender + " sent '"+filename+"."
+				newFile = "jkkasgjasg76666AJHAHAHxxxxCf"+"+"+"[Room] "+sender + " has sent '"+filename+"."
 				broadcast(bytes(newFile, "utf8"))
 
 			else:
