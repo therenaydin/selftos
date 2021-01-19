@@ -12,7 +12,7 @@
 #
 # Eren Aydın ~ therenaydin
 # E-posta: therenaydin@gmail.com
-# Discord: therenaydin#0911
+# Discord: therenaydin#8431
 #
 #    [LISANS]
 #
